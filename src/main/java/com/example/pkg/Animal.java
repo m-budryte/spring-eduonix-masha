@@ -1,10 +1,12 @@
 package com.example.pkg;
 
+import java.util.List;
+
 public class Animal {
     private String speciesName;
     private Color color;
     private Size size;
-
+    private List<String> names;
 
     public Animal(){
 
@@ -40,4 +42,11 @@ public class Animal {
         this.size = size;
     }
 
+    public List<String> getNames() {
+        return names;
+    }
+
+    public void setNames(List<String> names) {
+        this.names = names;
+    }
 }
