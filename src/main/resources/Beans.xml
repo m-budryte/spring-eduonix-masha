@@ -5,7 +5,7 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- bean definitions here -->
-    <bean id="zebra1" class="com.example.pkg.Animal" autowire="byType">
+    <bean id="zebra1" class="com.example.pkg.Animal" autowire="constructor">
 
     </bean>
 

@@ -12,10 +12,9 @@ public class Animal {
 
     }
 
-    public Animal(String speciesName, Color color, Size size) {
-        this.speciesName = speciesName;
+    public Animal(Color color) {
         this.color = color;
-        this.size = size;
+        System.out.println("Called constructor");
     }
 
     public String getSpeciesName() {
