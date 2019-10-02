@@ -5,8 +5,12 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- bean definitions here -->
-<bean id="Point10" class="com.example.pkg.Point">
-    <constructor-arg index="1" value="7.8"/>
-    <constructor-arg index="0" value="1.4"/>
-</bean>
+    <bean id="Point10" class="com.example.pkg.Point">
+        <constructor-arg index="1" value="7.8"/>
+        <constructor-arg index="0" value="1.4"/>
+    </bean>
+    <bean id="calc" class="com.example.pkg.Calculator">
+        <constructor-arg index="0" value="100"/>
+        <constructor-arg index="1" value="5"/>
+    </bean>
 </beans>
