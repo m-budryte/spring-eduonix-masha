@@ -7,7 +7,7 @@ public class ApplicationStart {
     public static void main(String[] args) {
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("Beans.xml");
         Animal zebra = (Animal) applicationContext.getBean("zebra");
-        BeanValidator beanValidator = (BeanValidator)applicationContext.getBean("validatorBean");
-        System.out.println(beanValidator);
+
+        System.out.println(zebra.getSize().getWeight());
     }
 }
