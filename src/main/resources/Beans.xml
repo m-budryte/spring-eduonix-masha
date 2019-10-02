@@ -21,4 +21,8 @@
             </bean>
         </property>
     </bean>
+    <bean id="blackAndWhite1" class="com.example.pkg.Color">
+        <constructor-arg value="BlackAndWhite"/>
+        <constructor-arg value="56"/>
+    </bean>
 </beans>
