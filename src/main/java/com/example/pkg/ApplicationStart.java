@@ -8,6 +8,6 @@ public class ApplicationStart {
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("Beans.xml");
         Animal zebra = (Animal) applicationContext.getBean("zebra1");
 
-        System.out.println(zebra.getNames());
+        System.out.println(zebra.getColor().getColorName());
     }
 }

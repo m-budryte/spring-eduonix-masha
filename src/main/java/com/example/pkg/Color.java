@@ -4,6 +4,9 @@ public class Color {
     private String colorName;
     private int colorId;
 
+    public Color() {
+    }
+
     public Color(String colorName, int colorId) {
         super();
         this.colorName = colorName;

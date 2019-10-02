@@ -5,13 +5,12 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- bean definitions here -->
-    <bean id="zebra1" class="com.example.pkg.Animal">
-        <property name="names">
-            <list>
-                <value>zebra1</value>
-                <value>bobby</value>
-                <value>bobber</value>
-            </list>
-        </property>
+    <bean id="zebra1" class="com.example.pkg.Animal" autowire="byName">
+
+    </bean>
+
+    <bean id="color" class="com.example.pkg.Color">
+        <property name="colorName" value="blackAndWhite"/>
+        <property name="colorId" value="2"/>
     </bean>
 </beans>
