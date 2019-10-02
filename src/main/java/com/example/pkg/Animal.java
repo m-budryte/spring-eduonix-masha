@@ -3,7 +3,6 @@ package com.example.pkg;
 public class Animal {
     private String speciesName;
     private Color color;
-    private String validator;
     private Size size;
 
 
@@ -41,11 +40,4 @@ public class Animal {
         this.size = size;
     }
 
-    public String getValidator() {
-        return validator;
-    }
-
-    public void setValidator(String validator) {
-        this.validator = validator;
-    }
 }
