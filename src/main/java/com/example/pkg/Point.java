@@ -6,8 +6,8 @@ public class Point {
     private int x;
     private int y;
 
-    public Point(double d, float f1, float f2) {
-        System.out.println(d+", " + f1 + ", " + f2);
+    public Point(double d, float f) {
+        System.out.println(d+", " + f);
     }
 
     public int getX() {
