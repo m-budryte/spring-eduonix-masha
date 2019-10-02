@@ -14,7 +14,7 @@
         <constructor-arg index="1" value="5"/>
     </bean>
     <bean id="animal" class="com.example.pkg.Animal">
-        <property name="weight" value="5.6"/>
+        <property name="color" ref="blackAndWhite"/>
     </bean>
     <bean id="blackAndWhite" class="com.example.pkg.Color">
         <constructor-arg value="BlackAndWhite"/>
