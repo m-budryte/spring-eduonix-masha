@@ -6,9 +6,10 @@ public class Point {
     private int x;
     private int y;
 
-    public Point(String message, int number) {
-        System.out.println(message+", " + number);
+    public Point(double d, float f1, float f2) {
+        System.out.println(d+", " + f1 + ", " + f2);
     }
+
     public int getX() {
         return x;
     }

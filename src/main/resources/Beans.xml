@@ -6,7 +6,8 @@
 
     <!-- bean definitions here -->
 <bean id="Point10" class="com.example.pkg.Point">
-    <constructor-arg value="HIIIIII"/>
-    <constructor-arg value="1000"/>
+    <constructor-arg index="2" type="float" value="12.5"/>
+    <constructor-arg index="1" type="float" value="7.8"/>
+    <constructor-arg type="double" value="1.4"/>
 </bean>
 </beans>
