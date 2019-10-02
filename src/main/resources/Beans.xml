@@ -15,7 +15,12 @@
     </bean>
     <bean id="animal" class="com.example.pkg.Animal">
         <constructor-arg index="1" value="50"/>
-        <constructor-arg  type="double" value="156"/>
+        <constructor-arg type="double" value="156"/>
         <constructor-arg value="Eric"/>
+        <constructor-arg index="3" ref="blackAndWhite"/>
+    </bean>
+    <bean id="blackAndWhite" class="com.example.pkg.Color">
+        <constructor-arg value="BlackAndWhite"/>
+        <constructor-arg value="56"/>
     </bean>
 </beans>
