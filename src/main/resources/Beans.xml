@@ -6,12 +6,7 @@
 
     <!-- bean definitions here -->
 <bean id="Point10" class="com.example.pkg.Point">
-    <property name="x" value="10"/>
-    <property name="y" value="10"/>
-</bean>
-<bean id="threeDPoint11" class="com.example.pkg.threeDPoint">
-    <property name="x" value="11"/>
-    <property name="y" value="11"/>
-    <property name="z" value="11"/>
+    <constructor-arg value="HIIIIII"/>
+    <constructor-arg value="1000"/>
 </bean>
 </beans>

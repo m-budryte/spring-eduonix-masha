@@ -1,9 +1,14 @@
 package com.example.pkg;
 
+import org.omg.CORBA.PUBLIC_MEMBER;
+
 public class Point {
     private int x;
     private int y;
 
+    public Point(String message, int number) {
+        System.out.println(message+", " + number);
+    }
     public int getX() {
         return x;
     }
