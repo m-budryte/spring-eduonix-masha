@@ -3,7 +3,9 @@ package com.example.pkg;
 public class Animal {
     private String speciesName;
     private Color color;
+    private String validator;
     private Size size;
+
 
     public Animal(){
 
@@ -37,5 +39,13 @@ public class Animal {
 
     public void setSize(Size size) {
         this.size = size;
+    }
+
+    public String getValidator() {
+        return validator;
+    }
+
+    public void setValidator(String validator) {
+        this.validator = validator;
     }
 }

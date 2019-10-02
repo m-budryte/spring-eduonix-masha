@@ -14,6 +14,11 @@
         <constructor-arg index="1" value="5"/>
     </bean>
     <bean id="animal" class="com.example.pkg.Animal">
+        <property name="validator">
+            <idref bean="zebra"/>
+        </property>
+    </bean>
+    <bean id="zebra" class="com.example.pkg.Animal">
         <property name="size">
             <bean id="animalSize" class="com.example.pkg.Size">
                 <constructor-arg value="100"/>
