@@ -7,6 +7,6 @@ public class ApplicationStart {
     public static void main(String[] args) {
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("Beans.xml");
         Animal animal = (Animal) applicationContext.getBean("animal");
-        System.out.println(animal.getColor().getColorName());
+        System.out.println(animal.getWeight());
     }
 }

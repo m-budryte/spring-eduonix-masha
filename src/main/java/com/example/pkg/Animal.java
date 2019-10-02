@@ -6,6 +6,10 @@ public class Animal {
     private String speciesName;
     private Color color;
 
+    public Animal(){
+
+    }
+
     public Animal(double weight, float height, String speciesName, Color color) {
         this.weight = weight;
         this.height = height;
