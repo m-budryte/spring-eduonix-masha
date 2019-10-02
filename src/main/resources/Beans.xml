@@ -14,14 +14,14 @@
         <constructor-arg index="1" value="5"/>
     </bean>
     <bean id="animal" class="com.example.pkg.Animal">
-        <property name="color">
-            <bean id="blackAndWhite" class="com.example.pkg.Color">
-                <constructor-arg value="BlackAndWhite"/>
-                <constructor-arg value="56"/>
+        <property name="size">
+            <bean id="animalSize" class="com.example.pkg.Size">
+                <constructor-arg value="100"/>
+                <constructor-arg value="560"/>
             </bean>
         </property>
     </bean>
-    <bean id="blackAndWhite1" class="com.example.pkg.Color">
+    <bean id="blackAndWhite" class="com.example.pkg.Color">
         <constructor-arg value="BlackAndWhite"/>
         <constructor-arg value="56"/>
     </bean>

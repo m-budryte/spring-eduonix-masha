@@ -1,36 +1,18 @@
 package com.example.pkg;
 
 public class Animal {
-    private double weight;
-    private float height;
     private String speciesName;
     private Color color;
+    private Size size;
 
     public Animal(){
 
     }
 
-    public Animal(double weight, float height, String speciesName, Color color) {
-        this.weight = weight;
-        this.height = height;
+    public Animal(String speciesName, Color color, Size size) {
         this.speciesName = speciesName;
         this.color = color;
-    }
-
-    public double getWeight() {
-        return weight;
-    }
-
-    public void setWeight(double weight) {
-        this.weight = weight;
-    }
-
-    public float getHeight() {
-        return height;
-    }
-
-    public void setHeight(float height) {
-        this.height = height;
+        this.size = size;
     }
 
     public String getSpeciesName() {
@@ -47,5 +29,13 @@ public class Animal {
 
     public void setColor(Color color) {
         this.color = color;
+    }
+
+    public Size getSize() {
+        return size;
+    }
+
+    public void setSize(Size size) {
+        this.size = size;
     }
 }

@@ -8,8 +8,7 @@ public class ApplicationStart {
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("Beans.xml");
         Animal animal = (Animal) applicationContext.getBean("animal");
 
-        Color color = (Color) applicationContext.getBean("blackAndWhite1");
-        System.out.println(color.getColorId());
-        System.out.println(animal.getColor().getColorName());
+        System.out.println(animal.getSize().getHeight());
+        System.out.println(animal.getSize().getWeight());
     }
 }
