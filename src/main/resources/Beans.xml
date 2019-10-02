@@ -13,4 +13,9 @@
         <constructor-arg index="0" value="100"/>
         <constructor-arg index="1" value="5"/>
     </bean>
+    <bean id="animal" class="com.example.pkg.Animal">
+        <constructor-arg index="1" value="50"/>
+        <constructor-arg  type="double" value="156"/>
+        <constructor-arg value="Eric"/>
+    </bean>
 </beans>

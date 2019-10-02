@@ -7,7 +7,7 @@ public class Point {
     private int y;
 
     public Point(double d, float f) {
-        System.out.println(d+", " + f);
+//        System.out.println(d+", " + f);
     }
 
     public int getX() {
